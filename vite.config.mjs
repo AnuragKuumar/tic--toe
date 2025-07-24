@@ -10,6 +10,7 @@ export default defineConfig({
   build: {
     outDir: "build",
     chunkSizeWarningLimit: 2000,
+    
   },
   plugins: [tsconfigPaths(), react(), tagger()],
   server: {
